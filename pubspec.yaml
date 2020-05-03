@@ -1,8 +1,8 @@
 name: functions
 description: A new Flutter package.
 version: 0.0.1
-author:
-homepage:
+author: Yuda Prama <yudapramad@gmail.com>
+homepage: https://github.com/yudaprama/functions.dart
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
