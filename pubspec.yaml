@@ -1,13 +1,15 @@
 name: functions
 description: A new Flutter package.
-version: 0.0.2
-author: Yuda Prama <yudapramad@gmail.com>
+version: 1.0.0
 homepage: https://github.com/yudaprama/functions.dart
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.17.1 <3.0.0"
 
 dependencies:
+  http: any
+  json_annotation: ^4.5.0
+  freezed_annotation: any
   flutter:
     sdk: flutter
 
