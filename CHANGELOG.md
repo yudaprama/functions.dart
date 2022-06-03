@@ -10,3 +10,7 @@
 
 * Support for null safety
 * Add request.
+
+## [1.1.0]
+
+* using `bodyBytes` for request

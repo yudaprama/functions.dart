@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/foundation.dart';
 import 'package:functions/model/error.dart';
 import 'package:http/http.dart';
@@ -12,7 +14,7 @@ Future requestList({required String endpoint, required ListResponseHandler respo
   Response response = await get(url, headers: {"content-type": "application/json"});
 
   if (response.statusCode < 400) {
-    return responseHandler(response.body);
+    return responseHandler(utf8.decode(response.bodyBytes));
   }
   throw Exception(errorFromJson(response.body).error);
 }
