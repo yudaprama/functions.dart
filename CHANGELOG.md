@@ -14,3 +14,7 @@
 ## [1.1.0]
 
 * using `bodyBytes` for request
+
+## [1.2.1]
+
+* add `requestCount`
